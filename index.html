@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>MOVIEUZ</title>
+</head>
+<body>
+ 
+    <div class="wrapper ">
+      
+          <!-- HEDAER - START -->
+          <header class="header">
+              <div class="container">
+                <div class="header-row">
+                    <div class="header-logo">
+                        <img class="logo-image" src="./style/images/logo.png" alt="logo image">
+                        <h1 class="logo-title">MOVIE.UZ</h1>
+                    </div>
+
+                    <nav class="header-nav"></nav>
+
+                    <div class="header-buttons">
+                       <div class="search-button">
+                        <input type="text" class="search-input "> 
+                        
+                        <button class="search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #A5BBDC"><path d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path></svg>
+                        </button>
+                       </div>
+                        <button class="menu-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #A5BBDC;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+                        </button>
+                    </div>
+
+                </div>
+              </div>
+          </header>
+          <!-- HEDAER - END -->
+          
+          <!-- MAIN - START -->
+          <main class="main">
+            <!-- movies - START -->
+            <section class="movies-section section">
+                <div class="container">
+                    <div class="menu">
+                        <ul>
+                            <li>Janr</li>
+                            <li>Sevimlilar</li>
+                            <li>Reyting</li>
+                            <li>Eng so'nggi</li>
+                        </ul>
+                    </div>
+                    <div class="section-title">
+                        <h3 class="section-title__title"></h3>
+                    </div>
+
+                    <div class="movies-list">
+                        <div class="movies-card">
+                            <div class="movies-card-image">
+                                <img src="#" alt="movies image">
+                            </div>
+                            <div class="movies-card__content">
+                                <div class="movies-card__row">
+                                    <a href="#" class="movies-card__title">Hukmdor Usmon</a>
+                                    <p class="movies-card__year">2021</p>
+                                </div>
+                                <p class="movies-card__subtitle">Uzbek tilida</p>
+                                <button class="movies-card__button"></button>
+                            </div>
+                        </div>
+                 
+                    </div>
+                </div>
+            </section>
+            <!-- movies - END -->
+            <!-- VIDEO PLAYER -->
+            <div class="container">
+                <div class="video-player">
+                    <div class="play-video__bottom">
+                        <h1 class="play-video__title">Kino nomi</h1>
+                        <button class="play-video__button">Chiqish</button>
+                    </div>
+                    <div class="play-video">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+        </main>
+        <!-- Login panel -->
+        <!-- <div class="login-banner">
+            <div class="login">
+                <label for="login" class="Label">Login:</label>
+                <input type="text"  id="login" class="login-input">
+                <label for="password" class="Label">Parol:</label>
+                <input type="text"  id="password" class="login-input">
+                <button class="login-button">Saqlash</button>
+                <button class="close-login">Ortga qaytish</button>
+            </div>
+        </div> -->
+          <!-- MAIN - END -->
+
+          <!-- FOOTER - START -->
+          <footer class="footer">
+            <div class="footer-bottom">
+                  <div class="container">
+                    <div class="footer-bottom-row">
+                        <div class="header-logo">
+                            <img class="logo-image" src="./style/images/logo.png" alt="logo image">
+                            <h1 class="logo-title">MOVIE.UZ</h1>
+                        </div>
+                        <nav class="footer-nav"></nav>
+                        <a href="./pages/admin.html" target="_blank" class="footer-buttonn">Login</a>
+                    </div>
+                    <div class="footer-bottom-texts">
+                        <p class="footer-bottom-text">
+                            © MOVIEUZ.com - 2024.
+                        </p>
+                        <p class="footer-bottom-text">
+                            | Qoidalar | Reklama | Обратная связь | <br> 
+                            <br> created by Ozodov.B | Yuldashev.S | Yuldoshev.J | Qutlimurodov.S 
+                        </p>
+                    </div>
+                  </div>
+            </div>
+        </footer>
+          <!-- FOOTER - END -->
+
+    </div>
+    <script type="module" src="./js/app.js"></script>
+    <script type="module" src="./js/data.js"></script>
+</body>
+</html>
